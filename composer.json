@@ -10,11 +10,6 @@
     },
     "repositories": [
         {
-            "name": "lenient",
-            "type": "composer",
-            "url": "https://packages.drupal.org/lenient"
-        },
-        {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
@@ -28,12 +23,13 @@
         "drupal/core-recommended": "^11.3",
         "drupal/devel": "^5.5",
         "drupal/pathauto": "^1.14",
+        "drupal/webform": "^6.3@beta",
         "drush/drush": "^13.7"
     },
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "allow-plugins": {
