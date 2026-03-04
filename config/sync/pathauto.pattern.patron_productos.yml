@@ -1,0 +1,22 @@
+uuid: 3151c634-3878-4293-a621-2e92df82df19
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: patron_productos
+label: 'patron productos'
+type: 'canonical_entities:node'
+pattern: '/producto/[node:title]'
+selection_criteria:
+  ab6e424c-91ce-43b4-8395-a0c6a6235f28:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: ab6e424c-91ce-43b4-8395-a0c6a6235f28
+    context_mapping:
+      node: node
+    bundles:
+      producto: producto
+selection_logic: and
+weight: -5
+relationships: {  }

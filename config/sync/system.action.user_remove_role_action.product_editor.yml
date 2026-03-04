@@ -1,0 +1,14 @@
+uuid: 306b7f5c-c242-4f88-89c2-30f39a67a547
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.product_editor
+  module:
+    - user
+id: user_remove_role_action.product_editor
+label: 'Remove the Product Editor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: product_editor

@@ -1,0 +1,70 @@
+uuid: f518fc35-f976-4092-8141-1eae29723c09
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.page
+    - node.type.producto
+    - taxonomy.vocabulary.categoria_producto
+    - taxonomy.vocabulary.tags
+  module:
+    - node
+    - taxonomy
+id: product_editor
+label: 'Gestor de catálogo'
+weight: 4
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'access taxonomy overview'
+  - 'administer content types'
+  - 'administer node published status'
+  - 'administer nodes'
+  - 'administer taxonomy'
+  - 'bypass node access'
+  - 'create article content'
+  - 'create page content'
+  - 'create producto content'
+  - 'create terms in categoria_producto'
+  - 'create terms in tags'
+  - 'delete all revisions'
+  - 'delete all taxonomy revisions'
+  - 'delete any article content'
+  - 'delete any page content'
+  - 'delete any producto content'
+  - 'delete article revisions'
+  - 'delete own article content'
+  - 'delete own page content'
+  - 'delete own producto content'
+  - 'delete page revisions'
+  - 'delete producto revisions'
+  - 'delete term revisions in categoria_producto'
+  - 'delete term revisions in tags'
+  - 'delete terms in categoria_producto'
+  - 'delete terms in tags'
+  - 'edit any article content'
+  - 'edit any page content'
+  - 'edit any producto content'
+  - 'edit own article content'
+  - 'edit own page content'
+  - 'edit own producto content'
+  - 'edit terms in categoria_producto'
+  - 'edit terms in tags'
+  - 'rebuild node access permissions'
+  - 'revert all revisions'
+  - 'revert all taxonomy revisions'
+  - 'revert article revisions'
+  - 'revert page revisions'
+  - 'revert producto revisions'
+  - 'revert term revisions in categoria_producto'
+  - 'revert term revisions in tags'
+  - 'view all revisions'
+  - 'view all taxonomy revisions'
+  - 'view article revisions'
+  - 'view own unpublished content'
+  - 'view page revisions'
+  - 'view producto revisions'
+  - 'view term revisions in categoria_producto'
+  - 'view term revisions in tags'
+  - 'view vocabulary labels'

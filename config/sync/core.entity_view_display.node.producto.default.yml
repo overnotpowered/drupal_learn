@@ -1,0 +1,72 @@
+uuid: 75c56b44-02a3-4cc9-b985-4fbb9603bdfb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.producto.field_categoria
+    - field.field.node.producto.field_descripcion
+    - field.field.node.producto.field_destacado
+    - field.field.node.producto.field_imagen_producto
+    - field.field.node.producto.field_precio
+    - node.type.producto
+  module:
+    - image
+    - user
+id: node.producto.default
+targetEntityType: node
+bundle: producto
+mode: default
+content:
+  field_categoria:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_descripcion:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_destacado:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_imagen_producto:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_precio:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,21 @@
+uuid: 91704d1f-cd10-4920-ae83-0f57c6333af2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_destacado
+    - node.type.producto
+id: node.producto.field_destacado
+field_name: field_destacado
+entity_type: node
+bundle: producto
+label: Destacado
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: Destacado
+  off_label: Normal
+field_type: boolean

@@ -1,0 +1,23 @@
+uuid: 841d61c3-4e64-40d0-a1ac-f793542d61ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_precio
+    - node.type.producto
+id: node.producto.field_precio
+field_name: field_precio
+entity_type: node
+bundle: producto
+label: Precio
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0.0
+  max: null
+  prefix: ''
+  suffix: ' €'
+field_type: decimal
