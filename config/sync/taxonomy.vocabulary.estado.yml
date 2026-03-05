@@ -1,0 +1,9 @@
+uuid: 0b2f24e5-bb68-4145-bdb2-6cbf2a633ba8
+langcode: en
+status: true
+dependencies: {  }
+name: Estado
+vid: estado
+description: 'estado del producto'
+weight: 0
+new_revision: false

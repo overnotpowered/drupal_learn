@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.producto.field_categoria
     - field.field.node.producto.field_descripcion
     - field.field.node.producto.field_destacado
+    - field.field.node.producto.field_estado
     - field.field.node.producto.field_imagen_producto
     - field.field.node.producto.field_precio
     - node.type.producto
@@ -41,6 +42,14 @@ content:
       format_custom_true: ''
     third_party_settings: {  }
     weight: 104
+    region: content
+  field_estado:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
     region: content
   field_imagen_producto:
     type: image

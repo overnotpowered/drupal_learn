@@ -1,0 +1,29 @@
+uuid: 1e0a7cf2-78aa-45ba-b8cf-e55fa5ce7673
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_estado
+    - node.type.producto
+    - taxonomy.vocabulary.estado
+id: node.producto.field_estado
+field_name: field_estado
+entity_type: node
+bundle: producto
+label: Estado
+description: 'Estado del producto'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      estado: estado
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
