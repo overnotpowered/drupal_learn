@@ -1,0 +1,5 @@
+name: 'Hola Mundo'
+type: module
+description: 'Mi primer módulo'
+core_version_requirement: ^10 || ^11
+package: Custom

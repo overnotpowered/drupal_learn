@@ -1,0 +1,7 @@
+hola_mundo.saludo:
+  path: '/saludo'
+  defaults:
+    _controller: '\Drupal\hola_mundo\Controller\HolaMundoController::mensaje'
+    _title: 'Mi Página de Bienvenida'
+  requirements:
+    _permission: 'access content'
